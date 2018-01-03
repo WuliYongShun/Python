@@ -53,3 +53,9 @@ if __name__ == "__main__":
 
     mc.decr("num", 2)
     print(mc.get("num"))
+
+    num1 = mc.gets("num")
+    print(num1)
+    mc.cas("num", "25")
+    num2 = mc.get("num")
+    print(num2)
