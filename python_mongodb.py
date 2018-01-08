@@ -33,3 +33,14 @@ if __name__ == "__main__":
     keys = lineme.keys()
     for i in keys:
         print(str(i)+":"+str(lineme[i]))
+
+
+    #插入多行
+    lines = [{"name":"doxdox"}, {"size":"12pt", "font":"wy"}, {"weight":"bold","color":"red"}]
+    col.insert(lines)
+
+    #修改文档
+    col.update({"size":"12pt"},{"$set":{"font":"200pt bold"}})
+
+    #删除文档
+    col.remove({"size":"12pt"})
