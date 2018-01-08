@@ -27,3 +27,9 @@ if __name__ == "__main__":
     cnt = col.count()
     print(cnt)
 
+
+    #查询一个文档
+    lineme = col.find_one({"size":"20pt"})
+    keys = lineme.keys()
+    for i in keys:
+        print(str(i)+":"+str(lineme[i]))
