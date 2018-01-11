@@ -63,4 +63,7 @@ if __name__ == "__main__":
 
     if (scripts[0] == "java"): print("true java....")
 
+    length = len(scripts)
+    print(length)
 
+    print(len(dis))
