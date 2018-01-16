@@ -4,6 +4,7 @@ ehthumbs.db
 Desktop.ini
 *.mp3
 music
+.idea
 
 # Python:
 *.py[cod]
