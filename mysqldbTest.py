@@ -13,4 +13,3 @@ if __name__ == "__main__":
     datas = cursor.fetchall()
     for row in datas:
         print(row[0]+" | "+row[1]+" | "+row[2])
-
