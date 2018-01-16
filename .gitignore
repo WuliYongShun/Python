@@ -5,6 +5,8 @@ Desktop.ini
 *.mp3
 music
 .idea
+*.jpg
+*.png
 
 # Python:
 *.py[cod]
