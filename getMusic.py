@@ -4,8 +4,8 @@
 
 if __name__ == "__main__":
     # num = 245610
-    # print(int(num/30000))
     # print(int(num/2000))
+    # print(int(num/30000))
     import requests
     from bs4 import BeautifulSoup
     file = open("music.html","r")
