@@ -7,7 +7,8 @@ if __name__ == "__main__":
 
     str = "where is w3c are you ready"
     obj = re.match("where",str)
-    # print(obj)
+    print(obj.span())
+
 
     objgroup = re.search(r"(.*) is (.*?) are (.*) ready", str, re.M|re.I)
     if objgroup:
