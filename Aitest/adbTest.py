@@ -67,6 +67,7 @@ while True:
     title_img.save("__title.jpg")
     answer_img.save("__answer.jpg")
 
+
     #读取文件
     def get_img_content(img_filepath):
         with open(img_filepath,"rb") as f:
