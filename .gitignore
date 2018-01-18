@@ -4,11 +4,13 @@ ehthumbs.db
 Desktop.ini
 *.mp3
 music
+tool_package
 .idea
 *.jpg
 *.png
 *.xml
 *.mp4
+
 
 # Python:
 *.py[cod]
