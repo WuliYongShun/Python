@@ -10,6 +10,7 @@ tool_package
 *.png
 *.xml
 *.mp4
+*.txt
 
 
 # Python:
