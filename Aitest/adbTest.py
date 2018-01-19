@@ -76,9 +76,9 @@ while True:
 
     #获取问题及答案
     def getTitleinfo(img):
-        APP_ID = '10704346'
-        API_KEY = 'M73AwH6k1rpxdGEjFXCD74rH'
-        SECRET_KEY = 'G4DlQ4GIW9vbcBQCLybuLN6EE5evgNt1'
+        APP_ID = '104170346'
+        API_KEY = 'M73AwHkxdjFXCD74rH'
+        SECRET_KEY = 'G4DlQQCLybuLN6EE5evgNt1'
 
         #文字识别
         client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
