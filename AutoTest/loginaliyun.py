@@ -21,9 +21,9 @@ driver.find_element_by_xpath('//*[@id="password"]').clear()
 
 
 driver.find_element_by_xpath('//*[@id="login_submit_btn"]').click()
-driver.find_element_by_xpath('//*[@id="username"]').send_keys('postmaster@herbsdyyy.org.cn')
+driver.find_element_by_xpath('//*[@id="username"]').send_keys('')
 driver.find_element_by_xpath('//*[@id="login_submit_btn"]').click()
-driver.find_element_by_xpath('//*[@id="password"]').send_keys('MS123dox')
+driver.find_element_by_xpath('//*[@id="password"]').send_keys('')
 driver.find_element_by_xpath('//*[@id="login_submit_btn"]')
 driver.find_element_by_xpath('//*[@id="password"]').click()
 driver.save_screenshot('screen_shoot.jpg')
@@ -31,9 +31,9 @@ driver.save_screenshot('screen_shoot.jpg')
 
 #验证码识别
 from aip import AipOcr
-APP_ID = '10704346'
-API_KEY = 'M73AwH6k1rpxdGEjFXCD74rH'
-SECRET_KEY = 'G4DlQ4GIW9vbcBQCLybuLN6EE5evgNt1'
+APP_ID = '107346'
+API_KEY = 'M73AwHEjFXCD74rH'
+SECRET_KEY = 'G4DlQ4GCLybuLN6EE5evgNt1'
 def get_img_content(img_filepath):
     with open(img_filepath,"rb") as f:
         return f.read()

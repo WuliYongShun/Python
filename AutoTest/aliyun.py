@@ -20,8 +20,8 @@ while True:
     driver.get('https://mailsso.mxhichina.com/login.htm?app_code=smartmail&lang=zh_CN&network_env=1&redirect_url=https%3A%2F%2Fqiye.aliyun.com%2Falimail%2Fauth%2FcallbackForCore%3Freurl%3D%252Falimail%252F&sign=02e70dd7a0011d0cd92b9e8d8b3e8cd1')
     driver.find_element_by_xpath('//*[@id="username"]').clear()
     driver.find_element_by_xpath('//*[@id="password"]').clear()
-    driver.find_element_by_xpath('//*[@id="username"]').send_keys('postmaster@herbsdyyy.org.cn')
-    driver.find_element_by_xpath('//*[@id="password"]').send_keys('MS123dox')
+    driver.find_element_by_xpath('//*[@id="username"]').send_keys('')
+    driver.find_element_by_xpath('//*[@id="password"]').send_keys('')
     driver.find_element_by_xpath('//*[@id="login_submit_btn"]').click()
     sreach_window = driver.current_window_handle
 
@@ -47,9 +47,9 @@ while True:
 
         #验证码识别
         from aip import AipOcr
-        APP_ID = '10704346'
-        API_KEY = 'M73AwH6k1rpxdGEjFXCD74rH'
-        SECRET_KEY = 'G4DlQ4GIW9vbcBQCLybuLN6EE5evgNt1'
+        APP_ID = '107436'
+        API_KEY = 'M73AwH6kCD74rH'
+        SECRET_KEY = 'G4DlQ4QCLybuLN6E5evgNt1'
         def get_img_content(img_filepath):
             with open(img_filepath,"rb") as f:
                 return f.read()
@@ -68,7 +68,7 @@ while True:
 
         yzm = str[:-1]
         #成功识别验证码后登陆
-        driver.find_element_by_xpath('//*[@id="password"]').send_keys('MS123dox')
+        driver.find_element_by_xpath('//*[@id="password"]').send_keys('')
         driver.find_element_by_xpath('//*[@id="login_checkcode"]').send_keys(yzm)
         driver.find_element_by_xpath('//*[@id="login_submit_btn"]').click()
         time.sleep(10)
