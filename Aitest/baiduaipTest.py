@@ -10,9 +10,9 @@ def get_img_content(img_filepath):
     with open(img_filepath,"rb") as f:
         return f.read()
 
-APP_ID = '10704346'
-API_KEY = 'M73AwH6k1rpxdGEjFXCD74rH'
-SECRET_KEY = 'G4DlQ4GIW9vbcBQCLybuLN6EE5evgNt1'
+APP_ID = '107346'
+API_KEY = 'M73AwH6k1rp4rH'
+SECRET_KEY = 'G4DlQ4GIWLybuE5evgNt1'
 
 # 图像识别
 # client = AipImageClassify(APP_ID, API_KEY, SECRET_KEY)
