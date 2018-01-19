@@ -53,29 +53,6 @@ print(str)
 
 yzm = res
 
-# driver.find_element_by_xpath('//*[@id="password"]').clear()
-# driver.find_element_by_xpath('//*[@id="username"]').clear()
-#
-# driver.find_element_by_xpath('//*[@id="username"]').send_keys('postmaster@herbsdyyy.org.cn')
-# driver.find_element_by_xpath('//*[@id="password"]').send_keys('MS123dox')
-# driver.find_element_by_xpath('//*[@id="login_checkcode"]').send_keys(yzm)
-# driver.find_element_by_xpath('//*[@id="login_submit_btn"]').click()
-#
-# # sreach_window = driver.current_window_handle
-# time.sleep(10)
-# driver.save_screenshot('screen_shoot_2.jpg')
-# try:
-#     dr = WebDriverWait(driver,25)
-#     if driver.find_element_by_xpath('//*[@id="header_wrap"]/div[3]/div[3]'):
-#         driver.save_screenshot('screen_shoot_3.jpg')
-#         driver.find_element_by_xpath('//*[@id="header_wrap"]/div[3]/div[3]').click()
-#         print(u'点击进入邮箱')
-# except:
-#     print(u'没有查找到节点')
-#
-#
-# driver.save_screenshot('screen_shoot_4.jpg')
-
 
 #退出应用
 sys.exit(0)
