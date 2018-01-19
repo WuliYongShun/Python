@@ -5,6 +5,7 @@
 import os
 import sys
 import time
+
 from PIL import Image
 from io import BytesIO
 from selenium import webdriver
