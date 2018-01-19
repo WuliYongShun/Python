@@ -6,9 +6,9 @@ from aip import AipOcr
 import json
 
 # 定义常量
-APP_ID = '10704346'
-API_KEY = 'M73AwH6k1rpxdGEjFXCD74rH'
-SECRET_KEY = 'G4DlQ4GIW9vbcBQCLybuLN6EE5evgNt1'
+APP_ID = '10737846'
+API_KEY = 'M73AwH6k1FXCD74rH'
+SECRET_KEY = 'G4Dl214uLN6EE55evgNt1'
 
 # 初始化AipFace对象
 aipOcr = AipOcr(APP_ID, API_KEY, SECRET_KEY)
