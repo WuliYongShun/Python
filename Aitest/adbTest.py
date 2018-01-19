@@ -8,7 +8,6 @@ import PIL
 import random
 import requests
 import subprocess
-
 from io import BytesIO
 from PIL import Image
 from aip import AipImageClassify
