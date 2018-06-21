@@ -21,7 +21,7 @@ HEIGHT = args.height
 OUTPUT = args.output
 
 ascii_char = list("$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft")
-
+#对应的映射反应的是什么情况
 # 将256灰度映射到70个字符上
 def get_char(r,g,b,alpha = 256):
     if alpha == 0:
